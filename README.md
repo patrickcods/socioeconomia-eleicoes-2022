@@ -1,7 +1,9 @@
 # 📊 Análise de Dados Eleitorais vs. Indicadores Socioeconômicos (2022)
 
 ## 📌 Sobre o Projeto
+Este projeto tem como objetivo investigar e visualizar a correlação entre o comportamento eleitoral brasileiro no 1º Turno de 2022 e os indicadores socioeconômicos dos municípios (IDH e Renda Per Capita). 
 
+O diferencial desta análise está na **engenharia de dados** aplicada: em vez de olhar apenas para os resultados das urnas, a base de dados do TSE foi cruzada com dados demográficos e econômicos, permitindo responder a perguntas complexas sobre como o nível de desenvolvimento de uma região influencia as tendências de votação.
 
 ---
 
