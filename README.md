@@ -1,4 +1,4 @@
-# 📊 Análise de Dados Eleitorais vs. Indicadores Socioeconômicos (2022)
+# 📊 Análise de Dados Eleitorais vs. Indicadores Socioeconômicos
 
 ## 📌 Sobre o Projeto
 Este projeto tem como objetivo investigar e visualizar a correlação entre o comportamento eleitoral brasileiro no 1º Turno de 2022 e os indicadores socioeconômicos dos municípios (IDH e Renda Per Capita). 
