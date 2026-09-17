@@ -32,13 +32,7 @@ Através dos gráficos de dispersão e análise de proporção, o modelo revelou
 * **Segmentação Socioeconômica:** A análise de dispersão demonstrou uma clara polarização atrelada à renda e ao Índice de Desenvolvimento Humano. Municípios com faixas menores de IDH e menor Renda Per Capita apresentaram uma forte concentração percentual de votos no candidato Luiz Inácio Lula da Silva (representado em vermelho).
 * **Inversão de Tendência:** Em contrapartida, à medida que o IDH municipal e a Renda Per Capita avançam nos eixos, os gráficos de dispersão mostram uma curva ascendente para o candidato Jair Messias Bolsonaro (representado em verde), evidenciando que cidades com melhores indicadores socioeconômicos tenderam a concentrar seus votos neste candidato.
 
-### 2. Distribuição Geográfica e Comportamento Regional
-O dashboard confirmou visualmente as disparidades regionais do país no pleito de 2022, com destaque para comportamentos atípicos e equilíbrios:
-* **A Exceção do Nordeste:** A região Nordeste foi o maior ponto de desvio da média nacional, apresentando uma vantagem expressiva de **68,05%** dos votos para Lula, contra apenas **28,81%** de Bolsonaro.
-* **Zonas de Equilíbrio:** As regiões Norte e Sudeste apresentaram o cenário de maior disputa, com uma divisão de votos extremamente equilibrada (ex: Norte com 48,03% vs. 48,18%).
-* **Vantagem Sul e Centro-Oeste:** As regiões Sul e Centro-Oeste consolidaram uma ligeira vantagem para o candidato Bolsonaro, atingindo **58,22%** e **56,99%** da preferência válida, respectivamente.
 
----
 
 ## 📁 Estrutura do Repositório
 
