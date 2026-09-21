@@ -48,6 +48,9 @@ O dashboard confirmou visualmente as disparidades regionais do país no pleito d
 | `fato_votacao_socioeconomica_2022.csv` | Dataset final consolidado e tratado, pronto para consumo em ferramentas de BI. |
 | `analise_eleitoral.pbix` | Arquivo do Power BI com o modelo de dados, medidas DAX e o dashboard interativo. |
 
+---
+
+## 📸 Preview do Dashboard
 
 *(Visualizações focadas em correlação de dados e distribuição proporcional)*
 
