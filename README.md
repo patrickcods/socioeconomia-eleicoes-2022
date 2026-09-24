@@ -1,28 +1,4 @@
-# 📊 Análise de Dados Eleitorais vs. Indicadores Socioeconômicos (2022)
 
-## 📌 Sobre o Projeto
-Este projeto tem como objetivo investigar e visualizar a correlação entre o comportamento eleitoral brasileiro no 1º Turno de 2022 e os indicadores socioeconômicos dos municípios (IDH e Renda Per Capita). 
-
-O diferencial desta análise está na **engenharia de dados** aplicada: em vez de olhar apenas para os resultados das urnas, a base de dados do TSE foi cruzada com dados demográficos e econômicos, permitindo responder a perguntas complexas sobre como o nível de desenvolvimento de uma região influencia as tendências de votação.
-
----
-
-## 🛠️ Tecnologias e Arquitetura de Dados
-O pipeline de dados foi desenhado para garantir limpeza, performance e escalabilidade estrutural antes de chegar à camada de visualização:
-
-* **Python (Pandas & Jupyter Notebook):** Responsável por todo o processo de ETL (Extração, Transformação e Carga). O script realizou a limpeza de dados nulos, padronização de chaves de cruzamento (nomes de municípios e códigos IBGE) e a junção (merge) entre os datasets de votação e os índices socioeconômicos, gerando uma tabela Fato otimizada.
-* **Power BI:** Construção do modelo relacional, criação de medidas dinâmicas utilizando **DAX** e desenvolvimento do painel interativo (Data Storytelling).
-
----
-
-## ⚖️ Garantia de Integridade e Regras de Negócio
-
-Para garantir que os gráficos de dispersão e proporção não apresentassem distorções ou informações enganosas, foram aplicados tratamentos rigorosos na consistência dos dados:
-
-* **Correção de Escala e Arredondamento (Python):** Durante a análise exploratória no Pandas, identificou-se que os índices de IDH dos municípios sofriam distorções por arredondamentos automáticos na base bruta. Foi feita a correção matemática e a tipagem estrita para ponto flutuante, garantindo que cada município ocupasse sua posição real e milimétrica nos eixos de dispersão.
-* **Segmentação Dinâmica com DAX (Power BI):** Para agrupar os municípios por regiões geográficas de forma performática e sem onerar o tamanho do modelo, foi implementada a função **`SWITCH(TRUE())`** em DAX. Isso permitiu centralizar as regras de negócio diretamente na camada de inteligência do relatório, garantindo a exatidão das métricas regionais (como os 68,05% mapeados no Nordeste).
-
----
 
 ## 💡 Principais Insights e Descobertas
 
